@@ -175,6 +175,12 @@ main {
   width: 2.75rem;
   height: 2.75rem;
   margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.ShareWrapper-SocialIconsBox > img:hover {
+  filter: invert(18%) sepia(76%) saturate(7129%) hue-rotate(303deg)
+    brightness(109%) contrast(109%);
 }
 
 @media screen and (min-width: 500px) and (max-width: 779px) {
